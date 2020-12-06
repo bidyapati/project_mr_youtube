@@ -14,6 +14,7 @@ A. Find out the top 5 categories with maximum number of videos uploaded.
         News & Politics 333
 
 B. Find out the top 10 rated videos.
+
 	hadoop fs -mkdir youtube
 	hadoop fs -put youtubedata.txt youtube
         hadoop jar /mnt/home/edureka_1270998/jars/edurekaProjects.jar com.edureka.project.youtube.TopRated youtube/youtubedata.txt youtube/youtube_top_rated_out
@@ -30,6 +31,7 @@ B. Find out the top 10 rated videos.
         4.91 cT2Bb8r134E
 	
 C. Find out the most viewed videos.
+
 	hadoop fs -mkdir youtube
 	hadoop fs -put youtubedata.txt youtube
 	hadoop jar /mnt/home/edureka_1270998/jars/edurekaProjects.jar com.edureka.project.youtube.MostViewed youtube/youtubedata.txt youtube/youtube_most_viewed_out
