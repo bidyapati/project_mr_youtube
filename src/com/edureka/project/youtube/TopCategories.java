@@ -15,7 +15,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-//A. Find out the top 5 categories with maximum number of videos uploaded.
+// Find out the top 5 categories with maximum number of videos uploaded.
 public class TopCategories {
 	// inner mapper class  -  to count videos per category
 	public static class MyMapper extends Mapper<LongWritable,Text, Text, LongWritable> {
