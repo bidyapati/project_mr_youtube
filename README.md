@@ -17,7 +17,7 @@ B. Find out the top 10 rated videos.
 
 	hadoop fs -mkdir youtube
 	hadoop fs -put youtubedata.txt youtube
-        hadoop jar /mnt/home/edureka_1270998/jars/edurekaProjects.jar com.edureka.project.youtube.TopRated youtube/youtubedata.txt youtube/youtube_top_rated_out
+	hadoop jar /mnt/home/edureka_1270998/jars/edurekaProjects.jar com.edureka.project.youtube.TopRated youtube/youtubedata.txt youtube/youtube_top_rated_out
     Result: [INCORRECT]
         5.0 niaeOlGRkFE
         4.99 cYbVkXai6Ec
@@ -45,7 +45,9 @@ C. Find out the most viewed videos.
 	....
 	....
 	
+
 Folder Clean up command:
+
     hadoop fs -rm -r youtube/youtube_top_rated_out
     hadoop fs -rm -r youtube/youtube_most_viewed_out
     hadoop fs -rm -r youtube/youtube_top_category_out
